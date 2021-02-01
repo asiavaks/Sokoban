@@ -110,15 +110,12 @@ div {
 
 .gameOver {
     background-color: rgba(110, 29, 27, 0.815);
-    width: 400px;
-    margin-top: 20px;
     border-radius: 6px;
     display: none;
-    margin-left: 100px;
     padding: 10px;
-    float: right;
-    margin-right: 37%;
     border: 5px solid black;
+    height: 100px;
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 1200px) {
