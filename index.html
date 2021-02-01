@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>sokoban</title>
+</head>
+
+<body onload="initGame()" onkeydown="KeyPressed(event)">
+    <table cellspacing="0">
+        <tbody class="board"></tbody>
+    </table >
+    <div class="data">
+        <h1 class="title">Sokoban</h1>
+    <h3 class="title second">Better Push those Boxes!</h3>
+        <h3 class="title second">Steps: <span class="steps"></span></h3>
+        <h3 class="title second">Score: <span class="score"></span></h3>
+        <div>
+            <div> <button class="button restart" onclick="playAgain()">Restart</button></div>
+        </div>
+    </div>
+    <div class="title gameOver">Victory!</div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
